@@ -1,0 +1,37 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8" http-equiv="content-type" content="text/html">
+<title>客户端存储留言板</title>
+
+<link type="text/css" rel="stylesheet" href="style.css">
+<script src="jquery-1.8.3.js" type="text/javascript"></script>
+<script src="data.js" type="text/javascript"></script>
+</head>
+
+<body>
+<section id="sidebar">
+<input type="button" value="新增" id="new_button">
+<ul id="notes_list"></ul>
+</section>
+
+<section id="main">
+<form>
+<ol>
+<li>
+<input type="button" id="save_button" value="保存">
+<input type="button" id="delete_button" value="删除">
+</li>
+<li>
+<label for="title">标题</label>
+<input type="text" id="title">
+</li>
+<li>
+<label for="note">内容</label>
+<textarea id="note"></textarea>
+</li>
+</ol>
+</form>
+</section>
+</body>
+</html>

@@ -1,0 +1,40 @@
+@charset "utf-8";
+/* CSS Document */
+body{
+	width:960px;
+}
+#sidebar,#main{
+	float:left;
+	display:block;
+}
+#sidebar{
+	width:30%;
+}
+#main{
+	width:70%;
+}
+form ol{
+	list-style:square;
+	margin:0;
+	padding:0;
+	line-height:30px;
+	
+}
+form li{
+	padding:0;
+	margin:0;
+}
+form li label{
+	display:block;
+}
+#title,#note{
+	width:100%;
+	font-size:24px;
+	border:1px solid #000;
+}
+#title{
+	height:20px;
+}
+#note{
+	height:40px;
+}
